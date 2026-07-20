@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Información de Viaje - Beni</title>
+
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+    margin:0;
+    color:#333;
+}
+header{
+    background:#003366;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+.card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+h2{
+    color:#003366;
+    border-bottom:2px solid #ddd;
+    padding-bottom:5px;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+th,td{
+    border:1px solid #ddd;
+    padding:10px;
+}
+th{
+    background:#003366;
+    color:white;
+}
+a{
+    color:#0066cc;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.contacto{
+    margin:8px 0;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>✈ Información de Viaje</h1>
+<h3>Beni</h3>
+<p>20 al 26 de julio</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Vuelos</h2>
+
+<table>
+<tr>
+<th>Fecha</th>
+<th>Vuelo</th>
+<th>Ruta</th>
+<th>Horario</th>
+</tr>
+
+<tr>
+<td>20 julio</td>
+<td>AA 2178</td>
+<td>Guatemala → Dallas</td>
+<td>12:35 a.m. – 4:00 a.m.</td>
+</tr>
+
+<tr>
+<td>20 julio</td>
+<td>AA 1154</td>
+<td>Dallas → Los Ángeles</td>
+<td>6:20 a.m. – 9:35 a.m.</td>
+</tr>
+
+<tr>
+<td>26 julio</td>
+<td>AA 2289</td>
+<td>Los Ángeles → Miami</td>
+<td>12:04 a.m. – 6:18 a.m.</td>
+</tr>
+
+<tr>
+<td>26 julio</td>
+<td>AA 1603</td>
+<td>Miami → Guatemala</td>
+<td>7:26 a.m. – 9:12 a.m.</td>
+</tr>
+
+</table>
+</div>
+
+<div class="card">
+<h2>Empresa</h2>
+
+<p><strong>Empresa:</strong> Inspec</p>
+
+<p class="contacto">
+<strong>Dueño:</strong> Gabriel Juárez<br>
+📞 <a href="tel:+525514777253">+52 5514 777253</a><br>
+💬 <a href="https://wa.me/525514777253">WhatsApp</a>
+</p>
+
+<p class="contacto">
+<strong>Secretaría:</strong> Ivonne<br>
+📞 <a href="tel:+525513790291">+52 5513 790291</a><br>
+💬 <a href="https://wa.me/525513790291">WhatsApp</a>
+</p>
+
+</div>
+
+<div class="card">
+<h2>Planta</h2>
+
+<p><strong>Cliente:</strong> Dr Pepper</p>
+
+<p>
+18180 Gateway Drive<br>
+Victorville, CA 92394
+</p>
+
+<p>
+<a href="https://share.google/tkx6kmDFtYKpMCIt4" target="_blank">
+📍 Abrir ubicación
+</a>
+</p>
+
+</div>
+
+<div class="card">
+<h2>Hotel</h2>
+
+<p><strong>Alojamiento La Buena Estancia</strong></p>
+
+<p>
+Puerto Málaga 316<br>
+45640 Santa Cruz de las Flores, México
+</p>
+
+<p>
+📞 <a href="tel:+523315401201">+52 331 540 1201</a>
+</p>
+
+<p>
+<a href="https://maps.google.com/maps/?q=20.4909796,-103.4895015" target="_blank">
+📍 Abrir en Google Maps
+</a>
+</p>
+
+</div>
+
+<div class="card">
+<h2>Compañeros de trabajo</h2>
+
+<p class="contacto">
+<strong>Ricardo Fletcher</strong><br>
+📞 <a href="tel:+50235695286">+502 3569 5286</a>
+</p>
+
+<p class="contacto">
+<strong>Josue</strong><br>
+📞 <a href="tel:+50242833638">+502 4283 3638</a>
+</p>
+
+</div>
+
+<div class="card">
+<h2>Transporte</h2>
+
+<p>🚗 Carro rentado en <strong>National</strong>.</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
